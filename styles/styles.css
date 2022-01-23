@@ -19,8 +19,14 @@ body {
   min-height: 100vh;
   border: 1px solid red;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+main {
+  padding: 0 1rem;
 }
 
 .container {
@@ -44,4 +50,11 @@ p {
 
 p {
   color: var(--grayish-blue);
+}
+
+footer {
+  padding: 0 1rem;
+  text-align: center;
+  position: absolute;
+  bottom: 1%;
 }
